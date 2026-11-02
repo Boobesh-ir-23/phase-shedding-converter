@@ -1,0 +1,38 @@
+# Third-party papers stay on disk. Citations are in Wiki/papers-catalog.md
+Inputs/raw/papers/
+
+# Conference manuscript stays off this repo
+Outputs/deliverables/paper/
+Inputs/raw/Paper_intern.docx
+Inputs/raw/Two_stage_Buck_Boost*.pdf
+Inputs/requirements/intern-paper-plan.md
+
+# Slide working files. The 12-slide deck is tracked.
+Outputs/deliverables/ppt/**
+!Outputs/deliverables/ppt/STIRS_2026_PhaseShedding_12.pptx
+
+# Scratch, blanks, and local agent notes
+Agent.md
+Inputs/MANIFEST.md
+Inputs/raw/desktop.ini
+Inputs/raw/Format*
+Inputs/raw/PPT/
+Inputs/raw/paper_changes/
+Inputs/raw/Monopole*
+Inputs/raw/Name_format.png
+Wiki/extra-papers-wanted.md
+Outputs/process/fill_stirs_proposal.py
+Outputs/process/figures/*.tex
+Outputs/process/figures/topology-modes/
+Outputs/process/figures/preview*
+
+# Simulink cache
+*.slxc
+*.mexw64
+*.lib
+*.exp
+slprj/
+
+desktop.ini
+Thumbs.db
+~$*
